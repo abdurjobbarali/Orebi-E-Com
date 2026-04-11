@@ -2,7 +2,7 @@ import Container from "../common/Container";
 import FooterLinks from "../common/FooterLinks";
 import { Link } from "react-router-dom";
 import Image from "../common/Image";
-import logo from "/src/assets/logo.svg";
+import logo from "/src/assets/Logo.svg"
 import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
