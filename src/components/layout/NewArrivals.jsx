@@ -18,7 +18,9 @@ const NewArrivals = () => {
   }, []);
   return (
     <Container>
-      <h3 className="text-10 font-bold text-secondary pb-12">New Arrival</h3>
+      <h3 className="text-[35px] font-bold text-secondary pb-12">
+        New Arrival
+      </h3>
       <Swiper
         navigation={true}
         autoplay={{ delay: 2000 }}
@@ -27,7 +29,7 @@ const NewArrivals = () => {
         spaceBetween={20}
         className="mySwiper"
       >
-        {allData.map(item => (
+        {allData.map((item) => (
           <SwiperSlide key={item.id}>
             <ProductCard
               pdtBdg={"New"}

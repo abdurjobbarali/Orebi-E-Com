@@ -5,14 +5,16 @@ import Policy from "../layout/Policy";
 import NewArrivals from "../layout/NewArrivals";
 
 
+
 const Home = () => {
   return (
     <>
       <Banner />
       <Policy />
-      <NewArrivals/>
       <Add />
+<NewArrivals/>
       <Phone />
+      <NewArrivals/>
      
     </>
   );
